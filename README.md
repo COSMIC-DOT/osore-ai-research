@@ -93,4 +93,148 @@ The GitHub Code dataset is a very large dataset so for most use cases it is reco
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4e3e0ac2-ccb9-4db2-b942-ac07575827c3/a8e9a1bd-b216-40d2-8b4f-14334bed9211/Untitled.png)
 
-# 추가
+# 추가 자료
+
+**Fine-tunning 방식**
+
+### **Difference between QLoRA and LoRA for Fine-Tuning LLMs.**
+
+[Difference between QLoRA and LoRA for Fine-Tuning LLMs.](https://medium.com/@sujathamudadla1213/difference-between-qlora-and-lora-for-fine-tuning-llms-0ea35a195535)
+
+### **GPT3.5 fine Fine-tunning**
+
+[How to Fine Tune GPT 3.5: Unlocking AI's Full Potential](https://www.datacamp.com/tutorial/how-to-fine-tune-gpt3-5)
+
+### Sourcegraph Github
+
+[Sourcegraph](https://github.com/sourcegraph)
+
+### SourceGraph
+
+**How SourceGraph does works**
+
+[Introduction to Sourcegraph](https://www.youtube.com/watch?v=D2x037j3BZ4&t=11s)
+
+**Cody AI**
+
+[Cody AI demo with Beyang Liu - Sourcegraph](https://www.youtube.com/watch?v=5L6Ys522snA)
+
+### Copilot
+
+How Copilot actually works
+
+[Copilot for Microsoft 365   How it ACTUALLY Works!](https://www.youtube.com/watch?v=F5wfOhnj0IU&t=392s)
+
+라마에 랭체인
+
+[Getting Started with LangChain and Llama 2 in 15 Minutes | Beginner's Guide to LangChain](https://www.youtube.com/watch?v=7VAGe32YptI)
+
+오픈소스 LLM 성능 리더보드
+
+[Open LLM Leaderboard - a Hugging Face Space by HuggingFaceH4](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+
+라마 + 랭체인 사용법
+
+[랭체인(langchain) + 허깅페이스(HuggingFace) 모델 사용법 (2)](https://teddylee777.github.io/langchain/langchain-tutorial-02/)
+
+LLM -code benchmarker
+
+[GitHub - terryyz/llm-benchmark: A list of LLM benchmark frameworks.](https://github.com/terryyz/llm-benchmark)
+
+[Big Code Models Leaderboard - a Hugging Face Space by bigcode](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)
+
+big code model leaderboard 를 보면 나와있음
+
+[Benchmarking LLMs: How to Evaluate Language Model Performance](https://luv-bansal.medium.com/benchmarking-llms-how-to-evaluate-language-model-performance-b5d061cc8679)
+
+Instruction tunning
+
+[[LLaMA 관련 논문 리뷰] 01-FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS (Instruction Tuning)](https://velog.io/@heomollang/LLaMA-논문-리뷰-1-LLaMA-Open-and-Efficient-Foundation-Language-Models)
+
+RAG. 
+
+[](https://aws.amazon.com/ko/what-is/retrieval-augmented-generation/)
+
+아키텍쳐
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4e3e0ac2-ccb9-4db2-b942-ac07575827c3/65274095-9a0f-4767-bf0e-d8ac32e581f5/Untitled.jpeg)
+
+[실전! RAG 고급 기법 - Retriever (1)](https://youtu.be/J2AsmUODBak?si=X6vsiJy7EAPcuPFb)
+
+[Langchain 강의 (1/n) - Langchain이 뭘까?](https://youtu.be/WWRCLzXxUgs?si=KglJ0GC4PynpCDS7)
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4e3e0ac2-ccb9-4db2-b942-ac07575827c3/de594b52-f50c-4809-8a51-e2991aaef486/Untitled.png)
+
+Open Ko-LLM Leaderboard / huggingface : 한글 대규모 언어모델 성능 확인
+
+대부분의 언어모델은 70billion개의 파라미터로 튜닝 — 개인 pc에서 돌아가기에 너무 크기에 양자화(Quanntization)을 통한 경량화 필요
+
+PDF를 읽어와서 기반으로 답변해주는것도 가능
+
+WebResearchRetriever을 활용하면 GitHub Repo를 참고하여 답변해주는것이 가능
+
+여기서 핵심은? 웹사이트(github)를 참조하여 답변을 하는데 웹사이트 위에 올라와있는 단어들을 임베딩해서 토큰화 해서 원하는 질문에 대한 답변을 잘 만들어 낼 수 있을 것인가? → 모델 자체의 성능이 좋은 모델이라면? 당연히 가능 
+
+RAG 방식으로 질문에 대한 답변의 참조를 만들어주는 것 까지는 okay 모델의 성능이 좋으려면 Parameter의 개수가 많은 Llama3와 같은 모델을 돌려야하는데 이 모델을 돌릴 GPU는 어디에? !! 
+
+연구실에서 돌린다 or GPU서버를 구입해서 돌린다
+
+RAG- WebResearchRetriever - 진행 과정 및 예시 사진 ppt에 포함되면 좋을 듯
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4e3e0ac2-ccb9-4db2-b942-ac07575827c3/0a65289b-db49-4fbc-82c5-9e4337166959/Untitled.png)
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4e3e0ac2-ccb9-4db2-b942-ac07575827c3/377216b6-1ab5-456c-9361-f7d8584f7fee/Untitled.png)
+
+[LangChain | WebResearchRetriever을 활용하여 RAG (Retrieval Augmented Generation) 구현하기](https://littlefoxdiary.tistory.com/116)
+
+RAG방식은 여러가지의 콘텐츠를 참조할 수 있는데 PDF, PPT, WORD, HWP, TXT, WEBSITE 등 많은 콘텐츠를 참조할 수 있는데 우리는 Website를 참조하는 방식을 채택 → 어떻게 자세히 code에 관한 내용을 임베딩할 수 있을까? → 이것과 상관없이 성능은 동일할 수도
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4e3e0ac2-ccb9-4db2-b942-ac07575827c3/8c1b22f4-4366-4c3c-8ddb-6db9d86ca5df/Untitled.png)
+
+[GitHub - kyopark2014/rag-code-generation: It decribes code generation using RAG.](https://github.com/kyopark2014/rag-code-generation)
+
+[Code understanding | 🦜️🔗 LangChain](https://python.langchain.com/v0.1/docs/use_cases/code_understanding/)
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4e3e0ac2-ccb9-4db2-b942-ac07575827c3/3406f635-dbc3-4411-9525-0df4ad532420/Untitled.png)
+
+Github에서 code를 clone해 와서 해당 레포를 .txt로 변환 이후에 chunk로 나누고 vector화 시킨다
+
+[Chat with your code using RAG! - a Lightning Studio by akshay](https://lightning.ai/lightning-ai/studios/chat-with-your-code-using-rag?path=cloudspaces/01hqv3vhhramx0jb4bgq0gb8a0&tab=overview)
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4e3e0ac2-ccb9-4db2-b942-ac07575827c3/20f5274d-4e20-45cb-a2bf-b8058e8670c1/Untitled.png)
+
+현 시점에서 결과를 보려면 google colab에서 돌릴 수 있어야하는데 
+
+PPT 들어갈 내용 정리
+
+1. Github repository clone → 저장소에 저장
+2. 저장된 repository에서 경로를 설정한 후 해당 경로 내부의 documents와 file명으로 ex) .py 지정한 코드를 가져와서 txt로 변환 → chunking
+3. txt로 변환된 코드들을 openai embedding model에 넣고 vector화 시킴 →여기서 openai embedding model을 사용하면서 open api 소모 발생
+4. vector화된( torch화) 데이터들을 langchain의 chroma를 사용해서 retriever를 만들어줌
+5. 만들어낸 retriever를 가지고 chain을 하나 만들어줌 → {chat_history}를 통해 미리 질문했던 내용들을 기억하게 함
+6. documents_chain을 구성 → context를 생성해내는 것
+7. retriever chain과  documents chain을 연결해서 qa라는 변수에 저장 → context(chat history)를 반영해서 질문에 대한 답변을 작성해 낼 수 있도록 함
+8. 모델을 준비하고 ( 모델은 현재 chat-gpt4를 활용, huggingface에서 가져온 모델이 invoke되지 않는 에러 발생으로 인해, invoke란 모델에게 질문하는것) 만들어놓은 langchain QA를 통해 모델에게 질문
+9. 결과 확인
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4e3e0ac2-ccb9-4db2-b942-ac07575827c3/bf796975-5b7a-47e5-a485-8a0a0f2f5988/Untitled.png)
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4e3e0ac2-ccb9-4db2-b942-ac07575827c3/751944dd-d86b-4620-876b-e6c0eabd0118/Untitled.png)
+
+- > **Question**: Runnable 클래스에서 파생된 클래스는 무엇인가요?
+
+**Answer**: 이 코드 스니펫에서 설명하는 Runnable 클래스에서 파생된 클래스를 명확하게 명시하지 않고 있습니다. 그러나 주석과 일부 클래스 정의에서 Runnable을 기반으로 하는 몇 가지 클래스를 추론할 수 있습니다. 예를 들어, RunnableLearnable, DynamicRunnable, BaseChatModel, BaseRetriever 등이 있습니다. 이러한 클래스들은 Runnable의 기능을 상속받고 확장하여 특정 작업을 수행합니다.
+
+- > **Question**: Runnable 클래스의 클래스 계층 구조와 관련하여 어떤 개선을 제안하시겠습니까?
+
+**Answer**: 코드 기반으로 제안할 수 있는 클래스 계층 구조에 대한 개선 사항은 다음과 같습니다:
+
+1. Runnable 클래스에는 많은 메서드와 속성이 포함되어 있습니다. 이들을 더 작은, 특정 목적을 가진 클래스로 분할하여 코드의 가독성과 관리성을 향상시킬 수 있습니다.
+2. 런타임에 특정 필드를 구성하는 기능을 제공하는 RunnableConfigurableFields 클래스를 만들어서 공통 기능을 재사용할 수 있게 할 수 있습니다. 이렇게 하면 코드 중복을 줄이고 유지 관리를 용이하게 할 수 있습니다.
+3. Serializable, Runnable, RunnableGenerator와 같은 여러 클래스가 있습니다. 이들의 공통 요소를 추상 기본 클래스나 인터페이스로 분리하여 코드 재사용성을 향상시킬 수 있습니다.
+4. Runnable 클래스가 현재 다양한 기능을 수행하고 있습니다. 이를 분리하여 각각의 클래스가 단일 책임 원칙을 따르도록 만들면 코드의 간결성과 가독성이 향상됩니다.
+5. 현재 Runnable 클래스는 다양한 타입의 입력을 받을 수 있습니다. 이를 위해 많은 타입 검사와 분기 처리가 필요합니다. 이를 개선하기 위해, 입력을 받는 방식을 표준화하고, 이를 처리하는 별도의 클래스나 함수를 만들 수 있습니다.
+
+이러한 제안사항들은 코드의 가독성, 재사용성, 유지보수성을 향상시키는 데 도움이 될 수 있습니다. 하지만 실제 프로젝트에서는 이러한 변경이 필요한지, 그리고 어떻게 구현할지에 대해 팀 내에서 논의가 필요합니다.
+
+필요한 작업 → 모델은 code analysis에 특화된 모델을 만들어서 (hugginface에서 모델을 받아 해당 모델에 code에 특화된 학습을 추가로 진행) 서버에 올려놓고 돌아가게 만들고, github에서 clone해와서 해당 레포를 chunking하고 embedding하는 작업을 백엔드해서 수행한 후 langchain을 하는 서버로 전송해서 langchain해서 모델에 질문하고 답변받고 다시 프론트로 내보내주는 구성을 하면 끝.
